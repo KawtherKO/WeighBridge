@@ -93,9 +93,15 @@
                     </Border>
                     <Border Style="{StaticResource CardStyle}" Margin="0,0,12,0">
                         <StackPanel>
-                            <TextBlock Text="GLOBAL PORTS" Style="{StaticResource SectionHeaderStyle}"/>
-                            <TextBlock Text="90" Style="{StaticResource StatNumberStyle}" Margin="0,6,0,4"/>
-                            <TextBlock Text="41 countries" Style="{StaticResource CardLabelStyle}"/>
+                            <TextBlock Text="EXPORT" Style="{StaticResource SectionHeaderStyle}"/>
+                            <TextBlock x:Name="TbExportCount"    Text="18" 
+                                Style="{StaticResource StatNumberStyle}" Margin="0,6,0,4"/>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="+3%" Foreground="#2ECC71" FontSize="12" FontWeight="Bold" FontFamily="Segoe UI"/>
+                                <TextBlock Text=" vs yesterday" Foreground="#8A8E9B" FontSize="12" FontFamily="Segoe UI"/>
+                            </StackPanel>
+                            <ProgressBar Value="25" Maximum="100" Height="3" Background="#F0F2F8"
+           Foreground="#4bd9ed" Margin="0,10,0,0" BorderThickness="0"/>
                         </StackPanel>
                     </Border>
                     <Border Style="{StaticResource CardStyle}">

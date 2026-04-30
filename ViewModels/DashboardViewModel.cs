@@ -8,8 +8,8 @@ namespace WeighBridge.ViewModels
         public string TodaysDelta   { get; } = "+12% vs yesterday";
         public int    ImportOps     { get; } = 29;
         public string ImportDelta   { get; } = "+5% vs yesterday";
-        public int    GlobalPorts   { get; } = 90;
-        public int    Countries     { get; } = 41;
+        public int TodayExport { get; } = 18; // 18
+        public string TodayExportTrend { get; } = "+3% vs yesterday";
         public string TotalTEU      { get; } = "2.6M";
         public string Uptime        { get; } = "99.8%";
 
