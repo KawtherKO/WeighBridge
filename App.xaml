@@ -11,6 +11,7 @@
                 <ResourceDictionary Source="Themes/TextStyles.xaml"/>
                 <ResourceDictionary Source="Themes/ButtonStyles.xaml"/>
                 <ResourceDictionary Source="Themes/InputStyles.xaml"/>
+                <ResourceDictionary Source="/Themes/ComboBoxStyle.xaml"/>
             </ResourceDictionary.MergedDictionaries>
             <helpers:EnumToBoolConverter              x:Key="EnumToBoolConverter"/>
             <helpers:NullToVisibilityConverter        x:Key="NullToVisibilityConverter"/>
